@@ -12,6 +12,7 @@ header {
   color: rgb(137, 161, 153);
   border: 1px solid;
   border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
 /* Main */
 main {
@@ -20,6 +21,7 @@ main {
   border-radius: 10px;
   color: rgb(137, 161, 153);
   margin: 1em 0em;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
 .inline {
   display: inline-block;
@@ -53,6 +55,7 @@ input {
   color: rgb(104, 122, 116);
   width: 40%;
   display: inline-block;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
 .groceryItem button {
   color: rgb(104, 122, 116);
