@@ -57,6 +57,10 @@ input {
   display: inline-block;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
+.groceryItem:hover {
+  font-size: 1.5em;
+  background-color: aquamarine;
+}
 .groceryItem button {
   color: rgb(104, 122, 116);
   font-family: cursive;
