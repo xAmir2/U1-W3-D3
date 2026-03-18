@@ -9,7 +9,7 @@ const formSubmit = (e) => {
   <article class="groceryItem">
   <p>${item}</p>
   <button onclick="deleteGroceryItem(event)">Delete 🗑️</button>
-  <button onclick="slashItem(event)"> Marks as complete ✅</button>
+  <button onclick="slashItem(event)"> Acquired ✅</button>
   </article>
   `;
   form.reset();
