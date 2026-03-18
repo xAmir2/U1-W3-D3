@@ -1,0 +1,73 @@
+/* Body */
+body {
+  padding: 1em;
+  background-image: url(../Assets/7811.jpg);
+
+  font-family: cursive;
+}
+/* Header */
+header {
+  text-align: center;
+  background-color: rgb(178, 233, 190);
+  color: rgb(137, 161, 153);
+  border: 1px solid;
+  border-radius: 10px;
+}
+/* Main */
+main {
+  text-align: center;
+  border: 1px solid rgb(73, 224, 199);
+  border-radius: 10px;
+  color: rgb(137, 161, 153);
+  margin: 1em 0em;
+}
+.inline {
+  display: inline-block;
+}
+input::placeholder {
+  font-style: italic;
+  color: rgb(104, 122, 116);
+}
+button {
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  color: rgb(137, 161, 153);
+  background-color: transparent;
+  border: none;
+  font-family: cursive;
+}
+input {
+  border-radius: 10px;
+  border: 0px;
+  background-color: transparent;
+  padding: 0.5em 1em;
+  color: rgb(137, 161, 153);
+}
+
+.groceryItem {
+  border: 1px solid rgb(223, 248, 185);
+  margin: 1em 1em;
+  border-radius: 10px;
+  background-color: rgb(200, 228, 218);
+  padding-bottom: 1em;
+  color: rgb(104, 122, 116);
+  width: 40%;
+  display: inline-block;
+}
+.groceryItem button {
+  color: rgb(104, 122, 116);
+  font-family: cursive;
+  border: none;
+}
+
+/* Footer */
+footer {
+  text-align: left;
+  background-color: rgb(206, 255, 221);
+  color: rgb(125, 133, 179);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 1.5px solid rgb(2, 241, 74);
+}
