@@ -8,8 +8,8 @@ const formSubmit = (e) => {
   section.innerHTML += `
   <article class="groceryItem">
   <p>${item}</p>
-  <button onclick="deleteGroceryItem(event)"> Delete</button>
-  <button onclick="slashItem(event)"> Marks as complete</button>
+  <button onclick="deleteGroceryItem(event)">Delete 🗑️</button>
+  <button onclick="slashItem(event)"> Marks as complete ✅</button>
   </article>
   `;
   form.reset();
@@ -26,5 +26,6 @@ form.addEventListener("submit", formSubmit);
 const slashItem = (e) => {
   const button = e.target;
   const article = button.parentElement;
-  article.style.textDecoration = "line-through";
+  const p = article.querySelector("p");
+  p.style.textDecoration = "line-through";
 };
