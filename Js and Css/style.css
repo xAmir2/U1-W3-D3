@@ -38,6 +38,10 @@ button {
   border: none;
   font-family: cursive;
 }
+
+button:hover {
+  font-size: 1em;
+}
 input {
   border-radius: 10px;
   border: 0px;
